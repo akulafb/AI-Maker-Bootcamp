@@ -1,1 +1,13 @@
- test test test
+When making changes to any application (code), these are the steps:
+
+git add .
+// "I want to include these changes”
+
+git commit -m "name of the commit, like fixed xyz bug"
+// “Save these changes and add this short explainer”
+
+git push origin master
+// "Now finally share it"
+// And specify which branch, like "master" / "main" / "branch xyz"
+
+Basically: "pack" → "label" → "ship" the code for all to see.
