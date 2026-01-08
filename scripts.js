@@ -21,6 +21,7 @@ let clickCount = 0;
 
 // Get elements
 const grumpyCat = document.getElementById('grumpy-cat');
+const palmTree = document.getElementById('palm-tree');
 const responseDiv = document.getElementById('response');
 const clickCounter = document.getElementById('click-counter');
 
@@ -97,6 +98,31 @@ grumpyCat.addEventListener('mouseleave', function() {
 // Initial message
 responseDiv.textContent = "👇 Click me!";
 responseDiv.style.color = '#ffffff';
+
+// Palm Tree Click Handler
+palmTree.addEventListener('click', function() {
+    // Add sway animation
+    palmTree.classList.add('sway');
+    setTimeout(() => {
+        palmTree.classList.remove('sway');
+    }, 500);
+    
+    // Generate random number 0-9
+    const randomNumber = Math.floor(Math.random() * 10);
+    
+    // Display the number
+    responseDiv.textContent = randomNumber;
+    responseDiv.style.color = '#4a7c2c'; // Green color matching the palm leaves
+    
+    // Add pop-in animation
+    responseDiv.classList.remove('show');
+    void responseDiv.offsetWidth; // Trigger reflow
+    responseDiv.classList.add('show');
+});
+
+
+
+
 
 
 
