@@ -7,6 +7,59 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 300;
+    margin: 40px 0 20px;
+}
+
+p {
+    margin: 20px 0;
+}
+
+a {
+    color: #42f3b5;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.description {
+    color: #8b8b8b;
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.copyright {
+    color: #8b8b8b;
+    font-size: 16px;
+    text-align: right;
+    margin-top: 60px;
 }
 
