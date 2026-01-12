@@ -1,6 +1,6 @@
 # AI Maker Bootcamp
 
-Welcome to FB's first ever repository! 🎉
+This is FB's first ever repository.
 
 ## About
 
