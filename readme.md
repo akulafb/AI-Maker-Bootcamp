@@ -26,5 +26,3 @@ A small test project exploring web development fundamentals.
 This repository tracks my progress through the AI Maker Bootcamp, documenting both structured coursework and independent exploration.
 
 ---
-
-*Created as part of the Codecademy AI Maker Bootcamp*
