@@ -1,2 +1,5 @@
-.env
+# IDE Settings
+.vscode/
+
+# OS Files
 .DS_Store
