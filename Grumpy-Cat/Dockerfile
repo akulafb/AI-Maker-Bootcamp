@@ -7,8 +7,8 @@ COPY . /usr/share/nginx/html
 # Copy nginx configuration
 COPY nginx.conf /etc/nginx/templates/default.conf.template
 
-# Tell Docker that this container listens on the Railway PORT
-EXPOSE $PORT
+# Tell Docker that this container listens on port 8080
+EXPOSE 8080
 
 # nginx will automatically substitute $PORT in the template
 CMD ["nginx", "-g", "daemon off;"]
